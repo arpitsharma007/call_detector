@@ -121,6 +121,7 @@ void _callbackDispatcher() {
     print('[ Caller ] - Calling user callback: ${userCallback?.toString()} $args');
 
     // 3.3. Invoke callback.
-    userCallback?.call(callerEvent, args.elementAt(4));
+    // Phone number index is 3
+    userCallback?.call(callerEvent, args.elementAt(3));
   });
 }
