@@ -1,10 +1,10 @@
 name: call_detector
 description: A new Flutter plugin project.
-version: 0.0.2
+version: 0.0.3
 homepage:
 
 environment:
-  sdk: '>=2.18.5 <3.0.0'
+  sdk: '>=2.18.5 <3.24.0'
   flutter: ">=2.5.0"
 
 dependencies:
